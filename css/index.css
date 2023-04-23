@@ -1,0 +1,391 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+ul {
+    position: relative;
+    bottom: 16px;
+    height: 75px;
+    text-align: center;
+    background: #004403;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.entre {
+    background-color: red;
+}
+
+.cadastrar {
+    background-color: red;
+}
+
+.cadastro {
+    left: 255px;
+}
+
+.entrar {
+    left: 260px;
+}
+
+.banner {
+    position: relative;
+    bottom: 33px;
+}
+.desconto{
+    position: relative;
+    left: 42px;
+}
+.p-desconto {
+    position: relative;
+    width: 466px;
+    height: 29px;
+    left: 433px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #004403;
+}
+
+.livros-promo {
+    position: relative;
+    left: 333px;
+    top: 27px;
+}
+
+
+.seta-direita {
+    position: relative;
+    bottom: 190px;
+    left: 105px;
+}
+.seta-direita2 {
+    position: relative;
+    bottom: 139px;
+    left: 1186px;
+}
+.seta-esquerda{
+    position: relative;
+    bottom: 240px;
+    left: 1171px;
+}
+.seta-esquerda2{
+    position: relative;
+    bottom: 192px;
+    left: 75px;
+}
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container > div {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .image-container img {
+    left: -6px;
+    height: 217px;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .image-container div div {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+.preco-antigo{
+    font-family: Arial;
+    right: 56px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: line-through;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+.preco-novo{
+   font-weight: 700;
+   font-size: 17px;
+   text-align: center;
+   color: #000000;
+}
+.livros {
+    background-color: #004403;
+    padding: 20px;
+    border: 4px solid transparent;
+    border-radius: 18px;
+}
+
+.title-livro {
+    color: #FFD700;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Imbue;
+}
+
+.li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 79px;
+    left: 158px;
+    position: relative;
+}
+
+.li:last-child {
+    margin-right: 0;
+}
+
+.li img {
+    max-width: 100%;
+    height: auto;
+}
+.preco{
+    color: #FFD700;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: rgba(217, 217, 217, 0.12);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+.button-livros{
+    position: relative;
+    left: 597px;
+    bottom: 25px;
+    background: rgba(165, 214, 167, 0.34);
+    border-radius: 7px;
+    border: 10px solid transparent;
+    bottom: 32px;
+    width: 78px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.banner2{
+    position: relative;
+    top: 128px;
+}
+.trecho{
+    position: relative;
+    top: 185px;
+    text-align: center;
+}
+.autor{
+    position: relative;
+    left: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    color: #004403;
+}
+.frase{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    right: 484px
+}
+.marcapagina{
+    position: relative;
+    top: 270px;
+    left: 9px;
+    font-family: 'Imbue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFD700;
+
+    background: #004403;
+    border: 4px solid transparent;
+    border-radius: 18px;
+}
+.li-livro {
+    display: inline-block;
+    text-align: center;
+    margin-right: 79px;
+    left: 68px;
+    top: 27px;
+    position: relative;
+}
+.seta-direita3{
+    position: relative;
+    left: 545px;
+    bottom: 97px;
+}
+.seta-esquerda3{
+    position: relative;
+    right: 536px;
+    bottom: 161px;
+}
+.personalize{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #5DDC63;
+}
+.ver-marca{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   color: #5DDC63;
+   margin-bottom: 16px;
+}
+.autores{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004403;
+    position: relative;
+    top: 350px;
+    left: 548px;
+}
+.li-autor{
+    display: inline-block;
+    margin-right: 79px;
+    right: 331px;
+    top: 47px;
+    position: relative;
+}
+.autor-prin{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #004403;
+
+    position: relative;
+    left: 80px;
+}
+.editoras{
+    position: relative;
+    top: 450px;
+    left: 559px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #004403;
+}
+.img-editora{
+    position: relative;
+    right: 346px;
+}
+.about{
+    position: relative;
+    top: 395px;
+    background: #EDEDED;
+    height: 166px;
+}
+.p-about{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 29px;
+    color: #000000;
+    text-align: inherit;
+    left: 223px;
+    position: relative;
+    top: 23px;
+}
+.icons{
+    list-style-type: none;
+    position: relative;
+    top: 379px;
+    height: 150px;
+    background: #C9C9C9;
+}
+.maior{
+    width: 207px;
+    position: relative;
+    left: 70px;
+}
+.li-ro{
+    position: relative;
+    left: 15px;
+    padding: 3px;
+}
+.texto-roda{
+    position: relative;
+    top: 243px;
+    left: 533px;
+}
+.ul-roda{
+    background: transparent;
+}
+.i-ro{
+   width: 191px;
+   text-align: initial;
+}
+.maior-texto{
+    width: 361px;
+    bottom: 13px;
+    position: relative;
+}
+.img-pagamento{
+    top: 75px;
+    position: relative;
+    width: 153px;
+    left: 1028px;
+}
+.pag{
+    width: 123px;
+}
