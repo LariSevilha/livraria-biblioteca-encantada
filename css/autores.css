@@ -1,0 +1,125 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+ul {
+    position: relative;
+    bottom: 16px;
+    height: 75px;
+    text-align: center;
+    background: #004403;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.entre {
+    background-color: red;
+}
+
+.cadastrar {
+    background-color: red;
+}
+
+.cadastro {
+    left: 255px;
+}
+
+.entrar {
+    left: 260px;
+}
+.banner{
+    position: relative;
+    bottom: 32px;
+}
+
+
+.autores{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004403;
+    position: relative;
+    top: 32px;
+    left: 534px;
+}
+.li-autor{
+    display: inline-block;
+    margin-right: 79px;
+    right: 331px;
+    top: 47px;
+    position: relative;
+}
+.autor-prin{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #004403;
+
+    position: relative;
+    left: 80px;
+}
+
+
+.icons{
+    list-style-type: none;
+    position: relative;
+    top: 379px;
+    height: 150px;
+    background: #C9C9C9;
+}
+.maior{
+    width: 207px;
+    position: relative;
+    left: 70px;
+}
+.li-ro{
+    position: relative;
+    left: 15px;
+    padding: 3px;
+}
+.texto-roda{
+    position: relative;
+    top: 243px;
+    left: 533px;
+}
+.ul-roda{
+    background: transparent;
+}
+.i-ro{
+   width: 191px;
+   text-align: initial;
+}
+.maior-texto{
+    width: 361px;
+    bottom: 13px;
+    position: relative;
+}
+.img-pagamento{
+    top: 75px;
+    position: relative;
+    width: 153px;
+    left: 1028px;
+}
+.pag{
+    width: 123px;
+}

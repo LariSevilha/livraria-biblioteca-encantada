@@ -1,0 +1,180 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+ul {
+    position: relative;
+    bottom: 16px;
+    height: 75px;
+    text-align: center;
+    background: #004403;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.entre {
+    background-color: red;
+}
+
+.cadastrar {
+    background-color: red;
+}
+
+.cadastro {
+    left: 255px;
+}
+
+.entrar {
+    left: 260px;
+}
+.banner{
+    position: relative;
+    bottom: 32px;
+}
+
+
+.p-desconto {
+    position: relative;
+    width: 466px;
+    height: 29px;
+    left: 433px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #004403;
+}
+
+.livros-promo {
+    position: relative;
+    left: 333px;
+    top: 27px;
+}
+
+
+.seta-direita {
+    position: relative;
+    bottom: 190px;
+    left: 105px;
+}
+.seta-direita2 {
+    position: relative;
+    bottom: 139px;
+    left: 1186px;
+}
+.seta-esquerda{
+    position: relative;
+    bottom: 240px;
+    left: 1171px;
+}
+.seta-esquerda4{
+    position: relative;
+    left: 1240px;
+    bottom: 222px;
+}
+.seta-direita4{
+    position: relative;
+    bottom: 173px;
+    left: 66px;
+}
+.seta-esquerda2{
+    position: relative;
+    bottom: 192px;
+    left: 75px;
+}
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container > div {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .image-container img {
+    left: -6px;
+    height: 217px;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .image-container div div {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+.preco-novo{
+   font-weight: 700;
+   font-size: 17px;
+   text-align: center;
+   color: #000000;
+}
+
+.icons{
+    list-style-type: none;
+    position: relative;
+    top: 379px;
+    height: 150px;
+    background: #C9C9C9;
+}
+.maior{
+    width: 207px;
+    position: relative;
+    left: 70px;
+}
+.li-ro{
+    position: relative;
+    left: 15px;
+    padding: 3px;
+}
+.texto-roda{
+    position: relative;
+    top: 243px;
+    left: 533px;
+}
+.ul-roda{
+    background: transparent;
+}
+.i-ro{
+   width: 191px;
+   text-align: initial;
+}
+.maior-texto{
+    width: 361px;
+    bottom: 13px;
+    position: relative;
+}
+.img-pagamento{
+    top: 75px;
+    position: relative;
+    width: 153px;
+    left: 1028px;
+}
+.pag{
+    width: 123px;
+}
+.rodape{
+    position: relative;
+    bottom: 345px;
+}

@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+ul {
+    position: relative;
+    bottom: 16px;
+    height: 75px;
+    text-align: center;
+    background: #004403;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.entre {
+    background-color: red;
+}
+
+.cadastrar {
+    background-color: red;
+}
+
+.cadastro {
+    left: 255px;
+}
+
+.entrar {
+    left: 260px;
+}
+.banner{
+    position: relative;
+    bottom: 32px;
+}
