@@ -47,3 +47,70 @@ a {
     position: relative;
     bottom: 32px;
 }
+.form{
+    position: relative;
+    left: 470px;
+}
+.botao{
+    position: relative;
+    left: 471px;
+    top: 99px;
+    width: 70px;
+    height: 25px;
+    color: #004403;
+    background: rgba(165, 214, 167, 0.34);
+    border: 1px solid transparent;
+}
+
+
+.campo{
+    position: relative;
+    right: 247px;
+    top: 96px;
+    color: #004403;
+
+}
+.campo-comentario{
+    position: relative;
+    top: 73px;
+    right: 246px;
+}
+.comentario{
+    position: relative;
+    right: 151px;
+    color: #004403;
+
+}
+.email{
+    position: relative;
+    left: 153px;
+    bottom: -20px;
+    
+}
+.name{
+    position: relative;
+    right: 245px;
+    top: 45px;
+}
+.name-text{
+    position: relative;
+    top: 25px;
+    right: 151px;
+    color: #004403;
+
+}
+.text-email{
+    position: relative;
+    bottom: 17px;
+    left: 94px;
+    color: #004403;
+
+}
+
+.text-form{
+    position: relative;
+    right: 206px;
+    color: #004403;
+    font-family: 'Fredoka';
+    font-size: 24px;
+}

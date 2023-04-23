@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/fale.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300;400;500;600&display=swap');
+    </style>
+    
 </head>
+
 <body>
     <div class="nav">
         <div class="menu">
@@ -35,5 +42,38 @@
             <img src="../images/banner2.png">
         </div>
     </div>
+
+<div class="form">
+    <form name="nomedoform" action="xxxx" method="xxxx">
+        <table>
+            <tr class="text-form">
+                <th colspan="2">Formulario de contato</th>
+            </tr>
+            <tr>
+                <td class="name-text"><label>Nome</label></td>
+                <td class="name"><input name="nome" type="text" size="33" maxlength="1000"></td>
+            </tr>
+
+            <tr class="email">
+                <td class="text-email"><label>E-mail*</label></td>
+                <td><input name="email" type="text" size="33" maxlength="1000"></td>
+            </tr>
+
+            <tr>
+                <td class="comentario"><label>Comentarios*</label>
+                </td>
+                <td class="campo-comentario"><textarea name="comentario" cols="25" rows="7" style="width: 685px; height: 113px;"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input name="submit" type="submit" value="Enviar" class="botao">
+                </td>
+                <td class="campo">*Campos de preenchimento obrigatorio</td>
+            </tr>
+        </table>
+    </form>
+  </div>
 </body>
+
 </html>
