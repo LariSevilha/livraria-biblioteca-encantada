@@ -29,11 +29,15 @@ a {
 }
 
 .entre {
-    background-color: red;
+    background-color: #0e8100;
+    border: 2px solid #0e8100;
+    border-radius: 10px;
 }
 
 .cadastrar {
-    background-color: red;
+    background-color: #0e8100;
+    border: 2px solid #0e8100;
+    border-radius: 10px;
 }
 
 .cadastro {
@@ -114,8 +118,8 @@ a {
   }
   
   .image-container div div {
-    font-size: 14px;
-    margin-top: 5px;
+    font-size: 17px;
+    margin-top: 13px;
   }
 
 .preco-antigo{
@@ -127,7 +131,7 @@ a {
     line-height: 17px;
     text-decoration: line-through;
     text-align: center;
-    color: #000000;
+    color: #7a0000;
     position: relative;
 }
 .preco-novo{
@@ -169,15 +173,12 @@ a {
     height: auto;
 }
 .preco{
-    color: #FFD700;
+    color: #ffffff;
     margin-top: 10px;
-    border: 1px solid transparent;
-    border-radius: 6px;
-    background: rgba(217, 217, 217, 0.12);
-    font-family: 'Inter';
+    font-family: 'Arial';
     font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 17px;
     line-height: 15px;
 }
 .button-livros{
@@ -304,29 +305,33 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #004403;
 
     position: relative;
-    left: 80px;
+    left: 12px;
 }
 .editoras{
     position: relative;
     top: 450px;
     left: 559px;
-
+}
+.edit{
     font-family: 'Fredoka';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    
     color: #004403;
+
+    position: relative;
+    right: 46px;
 }
 .img-editora{
     position: relative;
-    right: 346px;
+    right: 272px;
+    bottom: 66px;
 }
 .about{
     position: relative;
@@ -389,3 +394,14 @@ a {
 .pag{
     width: 123px;
 }
+
+.image-container img:hover {
+    border: 3px solid green;
+}
+
+.livros img:hover{
+    border: 3px solid rgb(11, 216, 11);
+    border-radius: 4px;
+}
+
+  

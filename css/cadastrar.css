@@ -27,7 +27,6 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .entre {
     background-color: #0e8100;
     border: 2px solid #0e8100;
@@ -39,7 +38,6 @@ a {
     border: 2px solid #0e8100;
     border-radius: 10px;
 }
-
 .cadastro {
     left: 255px;
 }
@@ -57,7 +55,7 @@ a {
 }
 .botao{
     position: relative;
-    left: 471px;
+    left: 444px;
     top: 99px;
     width: 70px;
     height: 25px;
@@ -87,9 +85,8 @@ a {
 }
 .email{
     position: relative;
-    left: 153px;
-    bottom: -20px;
-    
+    left: 111px;
+    bottom: -16px;
 }
 .name{
     position: relative;
@@ -98,36 +95,81 @@ a {
 }
 .name-text{
     position: relative;
-    top: 17px;
-    right: 152px;
+    top: 25px;
+    right: 151px;
     color: #004403;
-    
+
 }
 .text-email{
     position: relative;
-    bottom: 35px;
-    left: 91px;
+    bottom: 17px;
+    left: 110px;
+    color: #004403;
+
+}
+.text-name{
+    position: relative;
+    bottom: 15px;
+    left: 120px;
     color: #004403;
 }
-
-.text-form{
+.input-name{
     position: relative;
-    right: 206px;
-    
-    color: #004403; 
-    font-size: 30px;
+    right: 104px;
+    top: 15px;
 }
+.data{
+    position: relative;
+    top: 60px;
+    right: 125px;
+    color: #004403;
 
+}
+.data-nasc{
+    position: relative;
+    top: 32px;
+    right: 223px;
+}
+.senha{
+    position: relative;
+    top: 58px;
+}
+.text-senha{
+    position: relative;
+    left: 229px;
+    bottom: 27px;
+    color: #004403;
+
+}
+.input-email{
+    position: relative;
+    right: 111px;
+    top: 10px;
+}
 input{
     border: 1px solid #004e04;
     border-radius: 8px; 
     height: 24px;
-} 
-.input-email{
-    position: relative;
-    bottom: 9px;
-    right: 4px;
 }
+.botao2{
+    position: relative;
+    right: 349px;
+    top: 103px;
+
+    width: 70px;
+    height: 25px;
+    color: red;
+    background: rgba(165, 214, 167, 0.34);
+    border: 1px solid transparent;
+}
+.text-form{
+    position: relative;
+    right: 81px;
+    color: #004403;
+    font-family: 'Fredoka';
+    font-size: 30px;
+}
+
 .icons{
     list-style-type: none;
     position: relative;
@@ -174,4 +216,5 @@ input{
 .rodape{
     position: relative;
     bottom: 160px;
+    right: 477px;
 }

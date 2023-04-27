@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .menu li {
@@ -47,43 +47,15 @@ a {
 .entrar {
     left: 260px;
 }
-.banner{
+
+.banner {
     position: relative;
-    bottom: 32px;
+    bottom: 33px;
 }
-
-
-.autores{
-    font-family: 'Fredoka';
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 36px;
-    line-height: 44px;
-    color: #004403;
+.desconto{
     position: relative;
-    top: 32px;
-    left: 534px;
+    left: 42px;
 }
-.li-autor{
-    display: inline-block;
-    margin-right: 79px;
-    right: 331px;
-    top: 47px;
-    position: relative;
-}
-.autor-prin{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-    color: #004403;
-
-    position: relative;
-    left: 80px;
-}
-
-
 .icons{
     list-style-type: none;
     position: relative;
@@ -126,4 +98,28 @@ a {
 }
 .pag{
     width: 123px;
+}
+.rodape{
+    position: relative;
+    bottom: 160px;
+}
+
+h2{
+    position: relative;
+    left: 610px;
+}
+p{
+    margin: 35px;
+    font-family: arial;
+    font-size: 17px;
+    color: #004403;
+}
+.image1{
+    position: relative;
+    bottom: 139px;
+    left: 845px;
+    border: 3px solid green;
+    border-radius: 12px;
+    width: 275px;
+    height: 183px;
 }

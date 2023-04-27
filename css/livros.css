@@ -29,11 +29,15 @@ a {
 }
 
 .entre {
-    background-color: red;
+    background-color: #0e8100;
+    border: 2px solid #0e8100;
+    border-radius: 10px;
 }
 
 .cadastrar {
-    background-color: red;
+    background-color: #0e8100;
+    border: 2px solid #0e8100;
+    border-radius: 10px;
 }
 
 .cadastro {
@@ -121,14 +125,14 @@ a {
   }
   
   .image-container div div {
-    font-size: 14px;
-    margin-top: 5px;
+    font-size: 17px;
   }
 .preco-novo{
    font-weight: 700;
    font-size: 17px;
    text-align: center;
    color: #000000;
+   font-family: sans-serif;
 }
 
 .icons{
