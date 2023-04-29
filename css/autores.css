@@ -52,7 +52,11 @@ a {
     bottom: 32px;
 }
 
-
+.autore{
+    position: relative;
+    top: 75px;
+    left: 529px;
+}
 .autores{
     font-family: 'Fredoka';
     font-style: normal;
@@ -70,20 +74,47 @@ a {
     right: 331px;
     top: 47px;
     position: relative;
+    transition: transform 0.2s ease-in-out; 
 }
 .autor-prin{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 15px;
     color: #004403;
-
-    position: relative;
-    left: 80px;
+    text-align: center;
 }
-
-
+.dedicatoria {
+    top: 190px;
+    position: relative;
+    margin: 55px;
+    color: green;  
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 16px;
+    background: #e7ffd7;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .dedicatoria:hover, .li-autor:hover {
+    transform: scale(1.05); 
+    border-color: #2E8B57;
+  }
+.jhon{
+    position: relative;
+    left: 12px;
+}
+.beth{
+    position: relative;
+    left: 55px;
+    bottom: 20px;
+}
+.igor{
+    position: relative;
+    left: 72px;
+}
 .icons{
     list-style-type: none;
     position: relative;

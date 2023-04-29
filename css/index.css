@@ -6,8 +6,7 @@ body {
     display: inline-block;
     margin: 10px;
     position: relative;
-    top: 35px;
-    font-family: 'Inter';
+    top: 35px; 
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -56,6 +55,10 @@ a {
     position: relative;
     left: 42px;
 }
+.p-desconto:hover, .frase:hover {
+    transform: scale(1.05); 
+    border-color: #2E8B57;
+  }
 .p-desconto {
     position: relative;
     width: 466px;
@@ -66,9 +69,8 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-
+    transition: transform 0.2s ease-in-out; 
     text-align: center;
-
     color: #004403;
 }
 
@@ -115,6 +117,8 @@ a {
     height: 217px;
     position: relative;
     margin: 10px;
+    transition: transform 0.2s ease-in-out; 
+
   }
   
   .image-container div div {
@@ -230,7 +234,9 @@ a {
     text-align: right;
     text-decoration-line: underline;
     color: #000000;
-    right: 484px
+    right: 484px;
+    transition: transform 0.2s ease-in-out; 
+
 }
 .marcapagina{
     position: relative;
@@ -391,17 +397,11 @@ a {
     width: 153px;
     left: 1028px;
 }
+
 .pag{
     width: 123px;
 }
 
-.image-container img:hover {
-    border: 3px solid green;
-}
 
-.livros img:hover{
-    border: 3px solid rgb(11, 216, 11);
-    border-radius: 4px;
-}
 
   
